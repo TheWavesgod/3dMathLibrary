@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{7fc98a3b-b4c6-4cb7-bf99-c71c37706c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{e06f6ebe-b109-4142-a09d-df1838b6b21a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vector.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\vec3.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mat3.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\vector.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vec3.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mat3.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
